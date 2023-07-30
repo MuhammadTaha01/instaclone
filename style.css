@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS code for body */
+body
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+/* CSS code for parent div */
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.outerdiv
+{
+    display: flex;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 90px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.outerdiv img
+{
+
+    width: 200px;
+    height: 75px;
+}
+
+/* CSS code for placeholders */
+.input
+{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 0px;
+    box-shadow: none;
+    background-color: rgba(241, 241, 241, 0.527);
+    border-color: rgba(192, 184, 184, 0.318);
+    width: 255px;
+    height: 39px;
+    font-size: 12px;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+
+/* CSS code for checkbox 
+.savelogininfo
+{
+    font-size: 13px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    margin-left: 7px;
+}
+.chkbox
+{
+    height: 30%;
+}
+
+.chkboxcontainer
+{
+    margin-top: 20px;
+    padding-right: 53%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* CSS code for log-in button */
+.btn
+{
+    background-color: rgb(73, 161, 234);
+    border-color: rgb(147, 147, 247);
+    font-weight: 600;
+    border-radius: 7px;
+    color: whitesmoke;
+    width: 260px;
+    height: 35px;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+    margin-bottom: 8%;
+}
+
+/* CSS code for divider to replace it left and righ of the text */
+.text
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(116, 118, 120);
+}
+
+.text:before
+{
+    content: "";
+    width: 100px;
+    height: 1px;
+    display: block;
+    background-color: rgba(180, 178, 178, 0.755);
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+
+.text:after
+{
+    content: "";
+    width: 100px;
+    height: 1px;
+    display: block;
+    background-color: rgba(180, 178, 178, 0.755);
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+/* CSS code for the image of FB log-in */
+.fblogo
+{
+    height: 52px;
+    width: 95%;
+}
+.loginfb
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+/* CSS code for the text 'forgot password?' */
+.forgotpassword
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(15, 15, 194, 0.837);
+    font-weight: 100;
+    font-size: 11px;
+    margin-top: 1%;
+}
+.pass
+{
+    text-decoration: none;
+}
+
+/* CSS code for the text 'Dont having an account ? ' */
+.dontaccount
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+}
+.account
+{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.signup
+{
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(73, 161, 234);
+    font-weight: 550;
+}
+
+/* CSS code for the text 'Get the app' */
+.getapp
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-size: 14px;
+}
+
+/* CSS code for the image playstore or microsoft */
+.applink
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+.appimg
+{
+    height: 70px;
+    width: 270px;
+    padding-bottom: 15%;   
+}
+
+/* CSS code for footer container */
+.footercontainer
+{
+    position: absolute;
+    top: 100vh;
+}
+.footer
+{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: rgba(133, 133, 133, 0.974);
+    margin-left: 10px;
+}
+
+.footercontainer1
+{
+    position: absolute;
+    top: 100vh;
+    padding-top: 6%;
+}
+.footercontainer2
+{
+    position: absolute;
+    top: 100vh;
+    padding-top: 12%;
+}
+.footercontainer3
+{
+    position: absolute;
+    top: 100vh;
+    padding-top: 25%;
+    padding-bottom: 20%;
+}
+.arrowsign
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: rgba(133, 133, 133, 0.974);
+    margin-left: 10px;
+    transform: rotate(90deg);
+}
